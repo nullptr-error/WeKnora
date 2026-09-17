@@ -1,0 +1,9 @@
+{
+  "name": "WeKnora (Docker Compose)",
+  "install": "bash .cursor/install.sh",
+  "start": "bash .cursor/start.sh",
+  "ports": [
+    { "name": "Web UI", "port": 80 },
+    { "name": "Backend API", "port": 8080 }
+  ]
+}
