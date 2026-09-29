@@ -4,6 +4,9 @@
 !.env.example
 !.gitignore
 !.github/
+# Cloud Agent (Cursor) development environment configuration
+!.cursor/
+!.cursor/**
 
 # 敏感文件
 *.pem
